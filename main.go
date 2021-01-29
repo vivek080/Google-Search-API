@@ -15,11 +15,6 @@ func main() {
 	scanner.Scan()
 	keyword := scanner.Text()
 
-	// reader := bufio.NewReader(os.Stdin)
-	// fmt.Print("Enter the Keyword you want to search: ")
-	// keyword, _ := reader.ReadString('\n')
-	// keyword = strings.Replace(keyword, "\n", "", -1)
-
 	fmt.Printf("\nplease wait while it is searching for the keyword '%s' \n", keyword)
 	fmt.Println()
 
